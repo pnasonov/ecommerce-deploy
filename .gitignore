@@ -1,0 +1,8 @@
+.vscode/
+venv/
+admin_login_password.txt
+datadump.json
+tests/
+logic.py
+__pycache__/
+.env
