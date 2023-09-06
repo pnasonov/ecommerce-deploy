@@ -9,7 +9,7 @@ COPY ./scripts /scripts
 WORKDIR /ecommerce
 EXPOSE 8000
 
-RUN python -m venv /p   y && \
+RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
     apk add --update --no-cache postgresql-client && \
     apk add --update --no-cache --virtual .tmp-deps \
