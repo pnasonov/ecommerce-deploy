@@ -34,7 +34,7 @@ services:
     depends_on:
       - ecommerce
     ports:
-      - 85:8000
+      - 80:8000
     volumes:
       - static-data:/vol/static
 
