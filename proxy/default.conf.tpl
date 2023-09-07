@@ -2,7 +2,8 @@ server {
     listen ${LISTEN_PORT};
 
     location /static {
-        alias /vol/static;
+        autoindex on;
+        alias /vol/static/;
     }
 
     location / {
